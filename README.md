@@ -6,10 +6,6 @@ Emoji based semantic debuging
 - **Scoped debuging**: activate emo locally
 - **Hooks**: callback to execute after logging
 
-Looking at the console you get an intuitive global view on the execution flow: 
-
-![Screenshot](img/screenshot.png)
-
 ## Example
 
    ```javascript
