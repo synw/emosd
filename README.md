@@ -9,7 +9,7 @@ Emoji based semantic debuging
 ## Example
 
    ```javascript
-   import Emo from "@/emo";
+   import Emo from "@/emosd";
 
    const emo = new Emo();
 
