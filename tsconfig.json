@@ -13,7 +13,7 @@
     "rootDir": "src",
     "outDir": "lib",
     "declaration": true,
-    "description": "A nice greeter",
+    "description": "Emoji based semantic debuging",
     "main": "lib/index.js",
     "types": [
       "lib/index.d.ts",

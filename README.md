@@ -6,10 +6,20 @@ Emoji based semantic debuging
 - **Scoped debuging**: activate emo locally
 - **Hooks**: callback to execute after logging
 
+## Install
+
+```
+npm install emosd
+```
+or
+```
+yarn add emosd
+```
+
 ## Example
 
    ```javascript
-   import Emo from "@/emosd";
+   import Emo from "emosd";
 
    const emo = new Emo();
 
@@ -48,4 +58,13 @@ Callbacks to execute after logging. Ex:
    const emo = new Emo({ 
      hook: (msg) => { console.log(`Hook with message ${msg}`); }
    });
+   ```
+
+## Print some json data in console
+
+   ```javascript
+   const data = { foo: "bar" };
+   emo.json(data);
+   // or
+   Emo.json(data);
    ```

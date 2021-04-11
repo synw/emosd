@@ -1,6 +1,6 @@
 {
   "name": "emosd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Emoji based semantic debuging",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/synw/emosd"
+    "url": "https://github.com/synw/emosd"
   },
   "keywords": [
     "emoji",

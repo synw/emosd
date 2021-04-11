@@ -278,6 +278,14 @@ export default class Emo {
     return msg;
   }
 
+  print(data: Array<any> | Record<string, any>) { // eslint-disable-line
+    Emo.json(data);
+  }
+
+  static json(data: Array<any> | Record<string, any>) { // eslint-disable-line
+    console.log(JSON.stringify(data, null, "  "));
+  }
+
   private _getEmoString(emoji: string, obj?: any, domain?: string): string { // eslint-disable-line
     const l = new Array<string>();
     if (!this.deactivateEmojis && emoji != null) {
