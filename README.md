@@ -1,5 +1,7 @@
 # Emosd
 
+[![pub package](https://img.shields.io/npm/v/emosd)](https://www.npmjs.com/package/emosd)
+
 Emoji based semantic debuging
 
 - **Debug the state** and execution flow of your program using familiar idioms
