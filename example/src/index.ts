@@ -11,10 +11,9 @@ async function run() {
   emo.delete("Deleting something");
   emo.update("Updating something");
   emo.ok("Everything is ok");
-  emo.sectionEnd();
-  zone2.start();
+  zone2.start("Start");
   zone2.transmit({ foo: "bar" });
-  zone2.notFound();
+  zone2.notFound("Something not found");
   zone3.warning("a warning");
 }
 
