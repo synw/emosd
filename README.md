@@ -21,16 +21,28 @@ yarn add emosd
 ## Example
 
    ```javascript
-   import Emo from "emosd";
+import Emo from "./emosd";
 
-   const emo = new Emo();
+const emo = new Emo();
+const zone2 = new Emo({ zone: "zone2" });
+const zone3 = new Emo({ zone: "zone3", hook: (v) => { console.log("Zone 3 hook for", v) } });
 
-   emo.state("A state operation");
-   emo.save("Saving something");
-   emo.delete("Deleting something");
-   emo.update("Updating something");
-   emo.ok("Everything is ok");
+async function run() {
+emo.section("Run");
+emo.state("A state operation");
+emo.save("Saving something", { foo: "bar" });
+emo.delete("Deleting something");
+emo.update("Updating something");
+emo.ok("Everything is ok");
+zone2.start("Start");
+zone2.transmit({ foo: "bar" });
+zone2.notFound("Something not found");
+zone3.warning("a warning");
    ```
+
+Console output:
+
+![Example](doc/example.png)
 
 ## Scoped debuging
 
