@@ -1,0 +1,21 @@
+{
+  "name": "emosd_example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "tslib": "^2.1.0"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-typescript": "^1.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^6.7.2",
+    "typescript": "~3.9.3"
+  }
+}
