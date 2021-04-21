@@ -1,9 +1,12 @@
 {
   "name": "emosd",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Emoji based semantic debuging",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"

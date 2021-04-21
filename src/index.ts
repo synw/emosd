@@ -44,182 +44,182 @@ export default class Emo {
   /// A debug message for a state operation
   ///
   /// emoji: 📢
-  state(...obj: any[]): string { return this.emo("📢", ...obj); } // eslint-disable-line 
+  state(...obj: any[]): string { return this.emo("📢", obj); } // eslint-disable-line 
 
   /// A debug message for a save operation
   ///
   /// emoji: 💾
-  save(...obj: any[]): string { return this.emo("💾", ...obj); } // eslint-disable-line
+  save(...obj: any[]): string { return this.emo("💾", obj); } // eslint-disable-line
 
   /// A debug message for a delete operation
   ///
   /// emoji: ❌
-  delete(...obj: any[]): string { return this.emo("❌", ...obj); } // eslint-disable-line
+  delete(...obj: any[]): string { return this.emo("❌", obj); } // eslint-disable-line
 
   /// A debug message for a database query
   ///
   /// emoji: 🗄️
-  query(...obj: any[]): string { return this.emo("🗄️", ...obj); } // eslint-disable-line
+  query(...obj: any[]): string { return this.emo("🗄️", obj); } // eslint-disable-line
 
   /// A debug message for a dataset
   ///
   /// emoji: 💼
-  data(...obj: any[]): string { return this.emo("💼", ...obj); } // eslint-disable-line
+  data(...obj: any[]): string { return this.emo("💼", obj); } // eslint-disable-line
 
   /// A debug message representing a line
   ///
   /// emoji: ➖
-  line(...obj: any[]): string { return this.emo("➖", ...obj); } // eslint-disable-line
+  line(...obj: any[]): string { return this.emo("➖", obj); } // eslint-disable-line
 
   /// A debug message for an initialization
   ///
   /// emoji: 🎬
-  init(...obj: any[]): string { return this.emo("🎬", ...obj); } // eslint-disable-line
+  init(...obj: any[]): string { return this.emo("🎬", obj); } // eslint-disable-line
 
   /// A debug message for an update
   ///
   /// emoji: 🆙
-  update(...obj: any[]): string { return this.emo("🆙", ...obj); } // eslint-disable-line
+  update(...obj: any[]): string { return this.emo("🆙", obj); } // eslint-disable-line
 
   /// A debug message for an ok state
   ///
   /// emoji: 🆗
-  ok(...obj: any[]): string { return this.emo("🆗", ...obj); } // eslint-disable-line
+  ok(...obj: any[]): string { return this.emo("🆗", obj); } // eslint-disable-line
 
   /// A debug message for an build
   ///
   /// emoji: 🔧
-  build(...obj: any[]): string { return this.emo("🔧", ...obj); } // eslint-disable-line
+  build(...obj: any[]): string { return this.emo("🔧", obj); } // eslint-disable-line
 
   /// A debug message for parameters
   ///
   /// emoji: 📥
-  param(...obj: any[]): string { return this.emo("📥", ...obj); } // eslint-disable-line
+  param(...obj: any[]): string { return this.emo("📥", obj); } // eslint-disable-line
 
   /// A debug message for a class constructor
   ///
   /// emoji: 🛠️
-  aconstructor(...obj: any[]): string { return this.emo("🛠️", ...obj); } // eslint-disable-line
+  aconstructor(...obj: any[]): string { return this.emo("🛠️", obj); } // eslint-disable-line
 
   /// A debug message for a time related operation
   ///
   /// emoji: ⏱️
-  time(...obj: any[]): string { return this.emo("⏱️", ...obj); } // eslint-disable-line
+  time(...obj: any[]): string { return this.emo("⏱️", obj); } // eslint-disable-line
 
   /// A debug message for a not found status
   ///
   /// emoji: 🚫
-  notFound(...obj: any[]): string { return this.emo("🚫", ...obj); } // eslint-disable-line
+  notFound(...obj: any[]): string { return this.emo("🚫", obj); } // eslint-disable-line
 
   /// A debug message for a found status
   ///
   /// emoji: 👁️‍🗨️
-  found(...obj: any[]): string { return this.emo("👁️‍🗨️", ...obj); } // eslint-disable-line
+  found(...obj: any[]): string { return this.emo("👁️‍🗨️", obj); } // eslint-disable-line
 
   /// A debug message for a result
   ///
   /// emoji: 📌
-  result(...obj: any[]): string { return this.emo("📌", ...obj); } // eslint-disable-line
+  result(...obj: any[]): string { return this.emo("📌", obj); } // eslint-disable-line
 
   /// A debug message for information an input operation
   ///
   /// emoji: 📥
-  input(...obj: any[]): string { return this.emo("📥", ...obj); } // eslint-disable-line
+  input(...obj: any[]): string { return this.emo("📥", obj); } // eslint-disable-line
 
   /// A debug message for information an output operation
   ///
   /// emoji: 📤
-  output(...obj: any[]): string { return this.emo("📤", ...obj); } // eslint-disable-line
+  output(...obj: any[]): string { return this.emo("📤", obj); } // eslint-disable-line
 
   /// A debug message for a function
   ///
   /// emoji: 💊
-  function(...obj: any[]): string { return this.emo("💊", ...obj); } // eslint-disable-line
+  function(...obj: any[]): string { return this.emo("💊", obj); } // eslint-disable-line
 
   /// A debug message for a key
   ///
   /// emoji: 🔑
-  key(...obj: any[]): string { return this.emo("🔑", ...obj); } // eslint-disable-line
+  key(...obj: any[]): string { return this.emo("🔑", obj); } // eslint-disable-line
 
   /// A debug message for an access token
   ///
   /// emoji: 🔑
-  accessToken(...obj: any[]): string { return this.emo("🔑", ...obj); } // eslint-disable-line
+  accessToken(...obj: any[]): string { return this.emo("🔑", obj); } // eslint-disable-line
 
   /// A debug message for an refresh token
   ///
   /// emoji: 🗝️
-  refreshToken(...obj: any[]): string { return this.emo("🗝️", ...obj); } // eslint-disable-line
+  refreshToken(...obj: any[]): string { return this.emo("🗝️", obj); } // eslint-disable-line
 
   /// A debug message for an encryption operation
   ///
   /// emoji: 🎼
-  encrypt(...obj: any[]): string { return this.emo("🎼", ...obj); } // eslint-disable-line
+  encrypt(...obj: any[]): string { return this.emo("🎼", obj); } // eslint-disable-line
 
   /// A debug message for an decryption operation
   ///
   /// emoji: 🗝️
-  decrypt(...obj: any[]): string { return this.emo("🗝️", ...obj); } // eslint-disable-line
+  decrypt(...obj: any[]): string { return this.emo("🗝️", obj); } // eslint-disable-line
 
   /// A debug message for a transmission operation
   ///
   /// emoji: 📡
-  transmit(...obj: any[]): string { return this.emo("📡", ...obj); } // eslint-disable-line
+  transmit(...obj: any[]): string { return this.emo("📡", obj); } // eslint-disable-line
 
   /// A debug message for a start operation
   ///
   /// emoji: 🏁
-  start(...obj: any[]): string { return this.emo("🏁", ...obj); } // eslint-disable-line
+  start(...obj: any[]): string { return this.emo("🏁", obj); } // eslint-disable-line
 
   /// A debug message for a stop operation
   ///
   /// emoji: 🛑
-  stop(...obj: any[]): string { return this.emo("🛑", ...obj); } // eslint-disable-line
+  stop(...obj: any[]): string { return this.emo("🛑", obj); } // eslint-disable-line
 
   /// A debug message for an info
   ///
   /// emoji: ℹ️
-  info(...obj: any[]): string { return this.emo("ℹ️", ...obj); } // eslint-disable-line
+  info(...obj: any[]): string { return this.emo("ℹ️", obj); } // eslint-disable-line
 
   /// A debug message for a warning
   ///
   /// emoji: 🔔
-  warning(...obj: any[]): string { return this.emo("🔔", ...obj); } // eslint-disable-line
+  warning(...obj: any[]): string { return this.emo("🔔", obj); } // eslint-disable-line
 
   /// A debug message for a warning
   ///
   /// emoji: 💢
-  error(...obj: any[]): string { return this.emo("💢", ...obj); } // eslint-disable-line
+  error(...obj: any[]): string { return this.emo("💢", obj); } // eslint-disable-line
 
   /// A debug message with an arrow
   ///
   /// emoji: =>
-  arrowIn(...obj: any[]): string { return this.emo("=>", ...obj); } // eslint-disable-line
+  arrowIn(...obj: any[]): string { return this.emo("=>", obj); } // eslint-disable-line
 
   /// A debug message with an arrow
   ///
   /// emoji: <=
-  arrowOut(...obj: any[]): string { return this.emo("<=", ...obj); } // eslint-disable-line
+  arrowOut(...obj: any[]): string { return this.emo("<=", obj); } // eslint-disable-line
 
   /// A debug message with an arrow
   ///
   /// emoji: ->
-  smallArrowIn(...obj: any[]): string { return this.emo("->", ...obj); } // eslint-disable-line
+  smallArrowIn(...obj: any[]): string { return this.emo("->", obj); } // eslint-disable-line
 
   /// A debug message with an arrow
   ///
   /// emoji: <-
-  smallArrowOut(...obj: any[]): string { return this.emo("<-", ...obj); } // eslint-disable-line
+  smallArrowOut(...obj: any[]): string { return this.emo("<-", obj); } // eslint-disable-line
 
   /// A debug message with an arrow
   ///
   /// emoji: 🔷
-  requestGet(...obj: any[]): string { return this.emo("🔷", ...obj); } // eslint-disable-line
+  requestGet(...obj: any[]): string { return this.emo("🔷", obj); } // eslint-disable-line
 
   /// A debug message with an arrow
   ///
   /// emoji: 🔶
-  requestPost(...obj: any[]): string { return this.emo("🔶", ...obj); } // eslint-disable-line
+  requestPost(...obj: any[]): string { return this.emo("🔶", obj); } // eslint-disable-line
 
   /// A debug message for a ready state
   ///
@@ -229,26 +229,26 @@ export default class Emo {
     if (obj.length === 0) {
       obj[0] = "ready";
     }
-    return this.emo("⏲️", ...obj);
+    return this.emo("⏲️", obj);
   } // eslint-disable-line
 
   /// A debug message for a file
   ///
   /// emoji: 📃
-  file(...obj: any[]): string { return this.emo("📃", ...obj); } // eslint-disable-line
+  file(...obj: any[]): string { return this.emo("📃", obj); } // eslint-disable-line
 
   /// A debug message for a folder
   ///
   /// emoji: 📁
-  folder(...obj: any[]): string { return this.emo("📁", ...obj); } // eslint-disable-line
+  folder(...obj: any[]): string { return this.emo("📁", obj); } // eslint-disable-line
 
   /// A debug message for a question
   ///
   /// emoji: ❓
-  question(...obj: any[]): string { return this.emo("❓", ...obj); } // eslint-disable-line
+  question(...obj: any[]): string { return this.emo("❓", obj); } // eslint-disable-line
 
   /// A simple message with no emoji
-  msg(...obj: any[]): string { return this.emo("", ...obj); } // eslint-disable-line
+  msg(...obj: any[]): string { return this.emo("", obj); } // eslint-disable-line
 
   /// A separator line
   sep(): string {
@@ -272,8 +272,8 @@ export default class Emo {
   sectionEnd(): string { return this.sep() }
 
   /// Print a debug message from an emoji
-  emo(emoji: string, ...obj: any[]): string { // eslint-disable-line
-    const msg = this._getEmoString(emoji, ...obj);
+  emo(emoji: string, obj: Array<any>): string { // eslint-disable-line
+    const msg = this._getEmoString(emoji, obj);
     if (!this.deactivatePrint) {
       console.log(msg);
     }
@@ -291,7 +291,7 @@ export default class Emo {
     console.log(JSON.stringify(data, null, "  "));
   }
 
-  private _getEmoString(emoji: string, ...obj: any[]): string { // eslint-disable-line
+  private _getEmoString(emoji: string, obj: Array<any>): string { // eslint-disable-line
     const l = new Array<string>();
     if (!this.deactivateEmojis && emoji != null) {
       l.push(`${emoji}`);
